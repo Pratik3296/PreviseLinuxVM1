@@ -3,40 +3,7 @@
 <suite name="ATLC Automation">
     <test name="ATLC">
         <classes>
-            <class name="com.modules.orders.dashboard.SearchTest"/>
-            <class name="com.modules.orders.dashboard.FiltersTest"/>
-            <class name="com.modules.orders.dashboard.PortInOrderOnlyTest"/>
-            <class name="com.modules.orders.dashboard.PortInPreOrderAndOrderWithCSRTest"/>
-            <class name="com.modules.orders.dashboard.PortInPreOrderAndOrderWithOutCSRTest"/>
-            <class name="com.modules.orders.dashboard.RejectPortInPreOrderAtCSRStageTest"/>
-            <class name="com.modules.orders.dashboard.RejectPortInPreOrderAtLSRStageTest"/>
-            <class name="com.modules.orders.querySV.QuerySVTest"/>
-            <class name="com.modules.orders.dashboard.ModifyPortInPreOrderAndOrderWithCSRTest"/>
-            <class name="com.modules.orders.dashboard.SupplementPortInPreOrderWithLSRStageTest"/>
-            <class name="com.modules.orders.dashboard.CancelPortInPreOrderAtCSRStageTest"/>
-            <class name="com.modules.orders.dashboard.CancelPortInPreOrderAtLSRStageTest"/>
-            <class name="com.modules.orders.dashboard.PortOutTest"/>
-            <class name="com.modules.orders.dashboard.DashboardPortInModifyTest"/>
-            <class name="com.modules.orders.dashboard.DashboardPortInCancelTest"/>
-            <class name="com.modules.orders.dashboard.OrderPortInCancelTest"/>
-            <class name="com.modules.orders.dashboard.OrderPortInModifyTest"/>
-            <class name="com.modules.orders.dashboard.PortInCSROnlyTest"/>
-            <class name="com.modules.orders.dashboard.PortInSubmitLSRFromCSROnlyRequestTest"/>
-            <class name="com.modules.orders.dashboard.VPOPUserRequestCSRTest"/>
-            <class name="com.modules.orders.dashboard.CancelVPOPCSRPendingTest"/>
-            <class name="com.modules.orders.dashboard.ModifyVPOPCSRPendingTest"/>
-            <class name="com.modules.orders.dashboard.ApproveVPOPRequestTest"/>
-            <class name="com.modules.orders.audits.AuditsTest"/>
-            <class name="com.modules.network.NetworkCreateButtonTest"/>
-            <class name="com.modules.network.NetworkCreateTest"/>
-            <class name="com.modules.network.NetworkModifyTest"/>
-            <class name="com.modules.network.SPIDSearchTest"/>
-            <class name="com.modules.network.RespOrgSearchTest"/>
-            <class name="com.modules.network.LRNSearchTest"/>
-            <class name="com.modules.network.NPANXXSearchTest"/>
-            <class name="com.modules.network.NPANXXXBlockSearchTest"/>
-            <class name="com.modules.explore.LocalNumberLookupTest"/>
-            <class name="com.modules.login.ForgotPasswordTest"/>
+            <class name="com.modules.login.LoginTest"/>
         </classes>
     </test>
 </suite>
