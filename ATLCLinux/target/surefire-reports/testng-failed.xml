@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ATLC Automation]">
+  <test thread-count="5" verbose="0" name="ATLC(failed)">
+    <classes>
+      <class name="com.modules.orders.dashboard.VPOPUserRequestCSRTest">
+        <methods>
+          <include name="preconditions"/>
+          <include name="postConditions"/>
+          <include name="testVPOPUserRequestCSR"/>
+          <include name="afterTestMethod"/>
+        </methods>
+      </class> <!-- com.modules.orders.dashboard.VPOPUserRequestCSRTest -->
+    </classes>
+  </test> <!-- ATLC(failed) -->
+</suite> <!-- Failed suite [ATLC Automation] -->
